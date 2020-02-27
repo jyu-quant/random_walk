@@ -37,5 +37,5 @@ plt.figure()
 plt.hist(end_step)
 plt.show()
 
-""" would be interesting to show what the success rate converges to
-based on number of simulations, i.e. 100, 250, 1000 walks, etc. """
+""" would be interesting to show if the success rate converges to anything 
+with increasing simulation runs, i.e. 100, 250, 1000 walks, etc. """
