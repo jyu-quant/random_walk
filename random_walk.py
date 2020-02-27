@@ -30,9 +30,12 @@ for x in range(250):
 
 a_w_t = np.transpose(all_walks) #transpose to correctly handle viz
 end_step = a_w_t[-1]
-success = end_step > 60
+success = end_step > 60 #chance you'll end up above 60 steps
 np.mean(success)
 plt.plot(a_w_t)
 plt.figure()
 plt.hist(end_step)
 plt.show()
+
+""" would be interesting to show what the success rate converges to
+based on number of simulations, i.e. 100, 250, 1000 walks, etc. """
