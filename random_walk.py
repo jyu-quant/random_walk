@@ -23,7 +23,7 @@ for x in range(250):
             step = step + 1
         else:
             step = step + np.random.randint(1,7)
-        if np.random.rand() <= 0.001: #random chance to bust my ass
+        if np.random.rand() <= 0.001: #random chance trip and fall all the way down
             step = 0
         random_walk.append(step)
     all_walks.append(random_walk)
